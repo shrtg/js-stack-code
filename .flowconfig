@@ -1,0 +1,4 @@
+[options]
+suppress_comment= \\(.\\|\n\\)*\\flow-disable-next-line
+[ignore]
+<PROJECT_ROOT>/node_modules/eslint-plugin-jsx-a11y/src/rules/media-has-caption.js

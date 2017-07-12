@@ -1,0 +1,22 @@
+при установке eslint надо сначала ставить нужный конфиг, и смотреть на странице в гитхабе что и как ставить
+
+eslint-plugin-compat - проверяет доступны ли те или иные фишки в браузерах, указанных в package.json
+
+Flow
+// yarn add --dev flow-bin babel-preset-flow babel-eslint eslint-plugin-flowtype
+сам Flow и плагины для babel и eslint
+в конфиге eslint нужно указать
+  // "extends": [..., "plugin:flowtype/recommended"]
+что равнозначно
+  // "parser": "babel-eslint"
+т.е указывает eslint использовать парсер babel'я
+.flowconfig
+  // [options]
+  // suppress_comment= \\(.\\|\n\\)*\\flow-disable-next-line
+  задает комментарий для игнора предупреждений в следующей строке
+
+// @flow
+комеентарий который указывает что в файле надо проверять типы
+
+Jest
+// add --dev jest babel-jest
