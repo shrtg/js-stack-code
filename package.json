@@ -16,7 +16,7 @@
         "lint": "eslint src webpack.config.babel.js --ext .js,.jsx",
         "test": "yarn lint && flow && jest --coverage",
         "precommit": "yarn test",
-        "prepush": "yarn test && yarn prod:build"
+        "Aprepush": "yarn test && yarn prod:build"
     },
     "babel": {
         "presets": [
