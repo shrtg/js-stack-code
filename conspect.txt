@@ -57,3 +57,4 @@ isomorphic-fetch - кроссбраузерный (+ node) полифилл дл
 
 redux-thunk - middleware for redux, для асинхронных действий
 
+---
