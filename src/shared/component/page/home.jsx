@@ -34,7 +34,7 @@ const HomePage = ({ classes }: { classes: Object }) => (
     />
     <div className="jumbotron">
       <div className="container">
-        <h1 className="display-3 mb-4">{APP_NAME}</h1>
+        <h1 className="display-3 mb-4">{APP_NAME} PR</h1>
       </div>
     </div>
     <div className="container">
